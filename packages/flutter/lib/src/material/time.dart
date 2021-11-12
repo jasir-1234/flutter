@@ -133,7 +133,7 @@ class TimeOfDay {
     final String hourLabel = _addLeadingZeroIfNeeded(hour);
     final String minuteLabel = _addLeadingZeroIfNeeded(minute);
 
-    return '$TimeOfDay($hourLabel:$minuteLabel)';
+    return '$hourLabel:$minuteLabel';
   }
 }
 
